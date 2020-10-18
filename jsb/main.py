@@ -19,7 +19,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def say_hello():
-    return "Hello, varks!"
+    return "Hello, more varks!"
 
 
 if __name__ == '__main__':
