@@ -35,7 +35,7 @@ git clone https://github.com/jwrbarnes/getting-started-python.git /opt/app
 # Python environment setup
 virtualenv -p python3 /opt/app/jsb/env
 source /opt/app/jsb/env/bin/activate
-/opt/app/jsb/env/bin/pip install -r /opt/app/gce/requirements.txt
+/opt/app/jsb/env/bin/pip install -r /opt/app/jsb/requirements.txt
 
 # Set ownership to newly created account
 chown -R pythonapp:pythonapp /opt/app
